@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    char g;
+    int a,b;
+
+    printf("Enter an alphabet: ");
+    scanf("%g",&g);
+
+    
+    a = (g == 'a' || g == 'e' || g == 'i' || g == 'o' || g == 'u');
+
+   
+    b = (g == 'A' || g == 'E' || g == 'I' || g == 'O' || g == 'U');
+
+    if (a || b)
+        printf("%g is a vowel.", g);
+    else
+        printf("%g is a consonant.", g);
+    return 0;
+}
